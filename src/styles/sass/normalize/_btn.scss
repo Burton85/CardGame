@@ -1,0 +1,25 @@
+.btn {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1rem;
+    &-big {
+        font-size: 3rem;
+        padding: 3rem 5rem;
+    }
+    &-white {
+        background-color: #8785;
+        color: $gold;
+        font-weight: 800;
+    }
+    &:hover {
+        margin: -0.3rem 0.1rem;
+        box-shadow: 0.3rem 0.5rem 1rem;
+    }
+    &:active {
+        margin: 0;
+        box-shadow: 0 0 0.5rem;
+    }
+}

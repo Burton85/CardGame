@@ -1,0 +1,29 @@
+* {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $bcc;
+}
+.u-center {
+    &-text {
+        display: inline-block;
+        margin: auto;
+    }
+}
+.u-margin {
+    &-big {
+        margin: 8rem;
+    }
+    &-top-big {
+        margin-top: 8rem;
+    }
+    &-bottom-big {
+        margin-bottom: 8rem;
+    }
+    &-small {
+        margin: 2rem;
+    }
+}

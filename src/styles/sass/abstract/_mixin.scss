@@ -1,0 +1,8 @@
+@mixin slip {
+    &--front {
+        transform: rotateY(180deg);
+    }
+    &--back {
+        transform: rotateY(0);
+    }
+}

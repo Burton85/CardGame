@@ -1,0 +1,28 @@
+.heading {
+    cursor: pointer;
+    &-secondary {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: 800;
+        color: transparent;
+        text-shadow: 0.1rem 1rem 2rem rgba(128, 128, 128, 0.1);
+        background-image: linear-gradient(to left, $green, $lightblue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transition: all 0.5s;
+        &:hover {
+            transform: skewY(-5deg) skewX(-2deg) scaleX(1.25) scaleY(1.25);
+            text-shadow: 0.1rem 1.5rem 1rem rgba(128, 128, 128, 0.5);
+        }
+    }
+    &-third {
+        font-size: 15rem;
+        background-image: linear-gradient(-140deg, $gold, $yellow);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        opacity: 0.8;
+    }
+}
