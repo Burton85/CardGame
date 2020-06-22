@@ -15,15 +15,36 @@ body {
 }
 .u-margin {
     &-big {
-        margin: 8rem;
+        margin: 3rem;
     }
     &-top-big {
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     &-bottom-big {
-        margin-bottom: 8rem;
+        margin-bottom: 3rem;
     }
     &-small {
         margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body,
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body,
+    html {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body,
+    html {
+        font-size: 6px;
     }
 }

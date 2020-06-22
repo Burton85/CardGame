@@ -11,6 +11,8 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -40%);
+        animation: scale 1s linear;
+        transition: all 1s ease;
     }
     .btn {
         position: absolute;
